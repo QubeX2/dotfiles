@@ -1,0 +1,14 @@
+[user]
+	name = Mikael Andersson
+	email = qubex2@gmail.com
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+	ui = auto
+[push]
+	default = upstream
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f

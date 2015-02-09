@@ -1,0 +1,125 @@
+VIM CHEAT SHEET
+================================================================================
+
+MODES
+--------------------------------------------------------------------------------
+Vim has four modes: Normal, Insert, Visual, and Command.
+
+NORMAL MODE
+--------------------------------------------------------------------------------
+h = move left
+l = move right
+j = move down
+k = move up
+{n}j move down n lines
+w = next word
+b = previous word
+e = next end of word
+ge = previous end of a word
+gg = move to beginning of file
+G = move to end of file
+{n}G = goto line n
+0 = move to beginning of line
+$ = move to end of line
+
+f{c} = goto next character c
+f{c} = goto previous character c
+
+% = move to matching parenthesis
+{n}% = move to percentage of the file
+
+<C-g> = tell where you are
+<C-u> = moves up half window
+<C-d> = moves down half window
+<C-e> = scroll up a line
+<C-y> = scroll down a line
+<C-b> = scroll up whole screen
+<C-f> = scroll down whole screen
+zz = set cursor and center
+
+<C-w>T = move window to tab
+yy = yank a line
+{n}yy = yank n lines
+yw = yank word
+y$ = yank to end of line
+p = put after cursor
+P = put before cursor
+dd = cut a line
+dw = cut a word
+d<space> = cut at cursor
+D = cut from cursor to end of line
+x = delete at cursor
+X = delete before cursor
+
+/ = search forward
+? = search backward
+n = next search pattern
+N = previous search pattern
+
+gt = goto next tab
+gT = goto previous tab
+{n}gt = goto nth tab
+
+J = join two lines
+u = undo
+<C-r> = redo
+
+i = start insert a cursor
+I = insert at beginning of line
+a = append after cursor
+A = append at eol
+o = insert below current line
+O = insert above current line
+ea = append at en of word
+ii|<Esc> = exit insert mode
+r = replace character under cursor
+
+v = start visual mode selecting characters
+V = start visual mode selecting lines
+<C-v> = start visual mode selecting block
+
+ZZ = save all and exit
+
+<C-w>w = switch between windows
+<C-w>n = new empty window
+<C-w>s = split horizontal
+<C-w>v = split vertical
+<C-w>q = close window
+<C-h> = switch to window left
+<C-l> = switch to window right
+<C-j> = switch to window down
+<C-k> = switch to window up
+
+. = repeat last change
+
+gg=G = goto beginning of file, indent and goto end
+
+VISUAL MODE
+--------------------------------------------------------------------------------
+y = yank selection
+x = delete selection
+d = cut selection
+> = indent selection right
+< = indent selection left
+~ = switch case
+= = auto indentation
+COMMANDS
+--------------------------------------------------------------------------------
+:s/{from}/{to}/g = replace text current line
+:%s/{from}/{to}/g = replace text whole file
+
+:w = write file
+:wa = write all files
+:xa = write all and exit
+:wq = write file and quit
+:q = quit current window
+:q! = force quit
+
+:ls = list buffers
+:e = edit file
+:n = new file??
+:sp = open file split horizontal
+:vs = open file split vertical
+:bd = buffer delete
+:bn = buffer next
+:bp = buffer previous

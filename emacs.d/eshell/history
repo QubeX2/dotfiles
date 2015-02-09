@@ -1,0 +1,27 @@
+ls
+cd Users/mikael/
+ls
+cd Projects/
+ls
+cd c++/
+ls
+cd dev/
+make clean
+make
+ls
+./thread1
+ls
+exit
+ls
+make clean
+make
+./racecon 
+./racecon 
+./racecon 
+./racecon 
+make
+make clean
+make
+./atomicint 
+./atomicint 
+./atomicint 

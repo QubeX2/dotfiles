@@ -1,0 +1,23 @@
+"
+" Author: qubex2
+" Date: 2015-02-15
+" Email: qubex2@gmail.com
+"
+
+set nocompatible
+" ====[ PATHOGEN ]==============================================================
+execute pathogen#infect()
+syntax on
+
+" ====[ FILTYPE ]===============================================================
+filetype plugin indent on
+
+" ====[ THEME ]=================================================================
+colorscheme molokai
+
+" ====[ SCRIPTS ]===============================================================
+source ~/.vim/startup/settings.vim
+source ~/.vim/startup/autocmd.vim
+source ~/.vim/startup/mappings.vim
+source ~/.vim/startup/functions.vim
+

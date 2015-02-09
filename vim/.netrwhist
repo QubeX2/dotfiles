@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/mikael/.oh-my-zsh'
+let g:netrw_dirhist_2='/Users/mikael/Projects/upcor-joomla/pkg_ulms/packages/com_ulms/admin/controllers'
+let g:netrw_dirhist_3='/Users/mikael/Projects/upcor-joomla/pkg_ulms/packages/com_ulms/admin'
+let g:netrw_dirhist_4='/Users/mikael/.vim/bundle/orm'
