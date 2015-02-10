@@ -18,7 +18,7 @@ augroup END
 autocmd BufRead * setlocal foldmethod=marker
 autocmd BufRead * normal zM
 
-" ====[ Set vimoptions ]========================================================
+" ====[ Set vim options ]=======================================================
 autocmd FileType vim call SetVimOptions()
 
 function! SetVimOptions()

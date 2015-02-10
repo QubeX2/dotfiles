@@ -20,13 +20,14 @@ vnoremap <left> <Nop>
 vnoremap <right> <Nop>
 vnoremap <up> <Nop>
 nnoremap ö :
+vnoremap ö :
 
 " ====[ Search and Replace ]====================================================
 nnoremap ; :/
 noremap <Leader>h :nohl<CR>
 nmap <Leader>fs :Ack -i -Q -H ""<Left>
 nmap <Leader>fk :Ack -i -Q -H "<cword>"<CR>
-map <Leader>ws :%s/\s\+$//<CR>
+map <Leader>ws m':%s/\s\+$//<CR>''
 nmap <Leader>sf m'gg=G''
 
 " ====[ Indentation ]===========================================================
@@ -41,11 +42,6 @@ map <silent> <Leader>m :CtrlPMRU<CR>
 nmap <silent> <Leader>r <Esc>:TagbarToggle<CR>
 
 " ====[ Editing ]===============================================================
-inoremap <Leader>' ''<Left>
-inoremap <Leader>" ""<Left>
-inoremap <Leader>( ()<Left>
-inoremap <Leader>[ []<Left>
-inoremap <Leader>{ {}<Left>
 nmap ä $
 vmap ä $
 nnoremap <Leader>so :source %<CR>

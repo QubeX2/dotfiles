@@ -12,7 +12,6 @@ ZSH_TMUX_AUTOSTART=true
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export EDITOR="vim"
-export HOMEBREW_GITHUB_API_TOKEN="256ad8f529538d78943e82f194d48f2056198cb7"
 export GREP_OPTIONS="--color=auto"
 export GREP_COLOR="1;32"
 export MANPAGER="less -X" # Don't clear screen after quit man
@@ -30,4 +29,5 @@ alias f="open -a Finder ./"
 alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
 alias reload="source ~/.zshrc"
 
+source $(dirname $0)/.zshrc.tokens
 

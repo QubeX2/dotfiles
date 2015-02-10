@@ -29,10 +29,10 @@ endfunction
 " ====[ Toggle comments ]=======================================================
 autocmd FileType *sh,awk,python,perl,ruby let b:cmt = exists('b:cmt') ? b:cmt : '#'
 autocmd FileType vim let b:cmt = exists('b:cmt') ? b:cmt : '"'
-autocmd FileType c,cpp,php let b:cmt = exists('b:cmt') ? b:cmt : '//'
+autocmd FileType c,cpp,php,js let b:cmt = exists('b:cmt') ? b:cmt : '//'
 autocmd FileType lisp let b:cmt = exists('b:cmt') ? b:cmt : ';;'
 autocmd BufNewFile,BufRead *.vim,.vimrc,vimrc let b:cmt = exists('b:cmt') ? b:cmt : '"'
-autocmd BufNewFile,BufRead *.php,*.c,*.cpp let b:cmt = exists('b:cmt') ? b:cmt : '//'
+autocmd BufNewFile,BufRead *.js,*.php,*.c,*.cpp let b:cmt = exists('b:cmt') ? b:cmt : '//'
 autocmd BufNewFile,BufRead *.lisp,*.el let b:cmt = exists('b:cmt') ? b:cmt : ';;'
 autocmd BufNewFile,BufRead *.sh let b:cmt = exists('b:cmt') ? b:cmt : '#'
 
