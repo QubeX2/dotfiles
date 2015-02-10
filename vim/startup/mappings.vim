@@ -23,6 +23,7 @@ nnoremap ö :
 vnoremap ö :
 
 " ====[ Search and Replace ]====================================================
+nnoremap . ;
 nnoremap ; :/
 noremap <Leader>h :nohl<CR>
 nmap <Leader>fs :Ack -i -Q -H ""<Left>
@@ -50,7 +51,7 @@ imap <C-d> <Esc>ddi
 nmap <C-å> <C-]>
 nmap Y y$
 map <Leader>a ggVG
-
+nnoremap <Leader>o :e #<CR>
 " ====[ Window movements ]======================================================
 nmap <C-h> <C-w>h
 nmap <C-j> <C-w>j

@@ -29,5 +29,5 @@ alias f="open -a Finder ./"
 alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
 alias reload="source ~/.zshrc"
 
-source $(dirname $0)/.zshrc.tokens
+source .zshrc.tokens
 

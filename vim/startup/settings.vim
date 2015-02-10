@@ -49,7 +49,7 @@ set wildmenu
 set lazyredraw
 set showmatch
 set colorcolumn=80
-highlight ColorColumn ctermbg=LightGray
+highlight ColorColumn ctermbg=233
 
 " ====[ NETRW ]=================================================================
 let g:netrw_liststyle=3
