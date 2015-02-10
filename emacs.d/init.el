@@ -7,6 +7,7 @@
 ;;===============================================================================
 (if (display-graphic-p) ; if windowed mode
     (progn
+      (tool-bar-mode -1)
       (x-focus-frame nil)
       (setq default-frame-alist '((width . 150)(height . 52)))))
 
@@ -77,7 +78,6 @@
 ;; remove toolbar and menubar
 ;;---------------------------------------
 (menu-bar-mode -1)
-(tool-bar-mode -1)
 
 ;; web-mode
 (add-to-list 'load-path "~/.emacs.d/bundle/web-mode")
