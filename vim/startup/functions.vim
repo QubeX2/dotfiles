@@ -39,9 +39,9 @@ autocmd BufNewFile,BufRead *.sh let b:cmt = exists('b:cmt') ? b:cmt : '#'
 function! ToggleComment(cmt_char, cur_line)
     let line = ''
     if a:cur_line =~ '^ *' . a:cmt_char
-        let line = substitute(a:cur_line, '^\( *\)' . a:cmt_char, '\1', "")
+        let line = substitute(a:cur_line, '^\( *\)' . a:cmt_char . ' ', '\1', "")
     else
-        let line = substitute(a:cur_line, '^\( *\)', '\1' . a:cmt_char, "")
+        let line = substitute(a:cur_line, '^\( *\)', '\1' . a:cmt_char . ' ', "")
     endif
     return line
 endfunction
