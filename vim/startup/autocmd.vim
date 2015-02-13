@@ -29,4 +29,9 @@ endfunction
 " ====[ Set PHP options ]=======================================================
 autocmd FileType php set keywordprg=phpdoc.sh
 
+" ====[ Set C options ]=========================================================
+augroup C
+    autocmd!
+    autocmd BufRead,BufNewFile *.h,*.c set filetype=c
+augroup END
 
