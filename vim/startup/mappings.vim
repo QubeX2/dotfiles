@@ -29,7 +29,7 @@ noremap <Leader>h :nohl<CR>
 nmap <Leader>fs :Ack -i -Q -H ""<Left>
 nmap <Leader>fk :Ack -i -Q -H "<cword>"<CR>
 map <Leader>ws m':%s/\s\+$//<CR>''
-nmap <Leader>sf m'gg=G''
+nmap <Leader>sf m'gg=G''zz
 
 " ====[ Indentation ]===========================================================
 vnoremap < <gv
@@ -47,7 +47,6 @@ nmap ä $
 vmap ä $
 nnoremap <Leader>so :source %<CR>
 inoremap jk <Esc>
-imap <C-d> <Esc>ddi
 nmap <C-å> <C-]>
 nmap Y y$
 map <Leader>a ggVG

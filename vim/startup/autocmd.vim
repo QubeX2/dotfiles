@@ -26,4 +26,7 @@ function! SetVimOptions()
     setlocal formatoptions-=cro
 endfunction
 
+" ====[ Set PHP options ]=======================================================
+autocmd FileType php set keywordprg=phpdoc.sh
+
 
