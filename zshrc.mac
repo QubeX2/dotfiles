@@ -11,6 +11,7 @@ plugins=(git colored-man colorize github brew tmux)
 ZSH_TMUX_AUTOSTART=true
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/Applications/MAMP/bin/php/php5.6.2/bin:$PATH"
 export EDITOR="vim"
 export GREP_OPTIONS="--color=auto"
 export GREP_COLOR="1;32"
