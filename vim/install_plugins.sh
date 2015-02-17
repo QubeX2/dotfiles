@@ -7,7 +7,7 @@ if [ ! -d bundle ]; then
     git clone git://github.com/shawncplus/phpcomplete.vim.git bundle/phpcomplete.vim
     git clone https://github.com/ervandew/supertab.git bundle/supertab
     git clone git://github.com/majutsushi/tagbar bundle/tagbar
-    git submodule add git://github.com/SirVer/ultisnips.git bundle/ultisnips
+    git clone https://github.com/SirVer/ultisnips.git bundle/ultisnips
     git clone https://github.com/bling/vim-airline bundle/vim-airline
     git clone git://github.com/klen/python-mode.git bundle/python-mode
 fi
