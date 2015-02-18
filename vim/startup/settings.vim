@@ -51,6 +51,7 @@ set lazyredraw
 set showmatch
 set colorcolumn=80
 highlight ColorColumn ctermbg=233
+highlight Visual cterm=NONE ctermbg=White ctermfg=Black
 
 " ====[ NETRW ]=================================================================
 let g:netrw_liststyle=3
