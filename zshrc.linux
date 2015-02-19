@@ -17,6 +17,8 @@ export GREP_COLOR="1;32"
 export MANPAGER="less -X" # Don't clear screen after quit man
 export TERM="screen-256color"
 export CLICOLOR=1
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 
 # oh-my-zsh
 source $ZSH/oh-my-zsh.sh
