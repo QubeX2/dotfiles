@@ -39,7 +39,7 @@ set statusline=%f\ %=L:%l/%L\ %c\ (%p%%)
 set guioptions-=T
 set encoding=utf-8
 set autoread
-set clipboard+=unnamed
+set clipboard=unnamed
 set shortmess+=I
 set splitbelow
 set splitright

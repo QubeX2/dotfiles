@@ -1,6 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/mikael/.oh-my-zsh'
-let g:netrw_dirhist_2='/Users/mikael/Projects/upcor-joomla/pkg_ulms/packages/com_ulms/admin/controllers'
-let g:netrw_dirhist_3='/Users/mikael/Projects/upcor-joomla/pkg_ulms/packages/com_ulms/admin'
-let g:netrw_dirhist_4='/Users/mikael/.vim/bundle/orm'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/mikael/Projects/upcor-joomla/pkg_umedicine/packages'
+let g:netrw_dirhist_2='/Users/mikael/Projects/upcor-joomla/pkg_umedicine/packages/com_umedicine'
+let g:netrw_dirhist_3='/Users/mikael/Projects/upcor-joomla/pkg_umedicine/packages/com_umedicine/site'
+let g:netrw_dirhist_4='/Users/mikael/Projects/upcor-joomla/pkg_umedicine/packages/com_umedicine/site/views'
+let g:netrw_dirhist_5='/Users/mikael/Projects/upcor-joomla/pkg_umedicine/packages/com_umedicine/site/views/inspect'
+let g:netrw_dirhist_6='/Users/mikael/Projects/upcor-joomla/pkg_umedicine/packages/com_umedicine/site/views/inspect/tmpl'
+let g:netrw_dirhist_7='/Users/mikael/Projects/upcor-joomla'
+let g:netrw_dirhist_8='/Users/mikael/Projects/upcor-joomla/pkg_umedicine/packages/com_umedicine/site/views/inspect'

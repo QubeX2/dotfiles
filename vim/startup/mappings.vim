@@ -51,6 +51,9 @@ nmap <C-å> <C-]>
 nmap Y y$
 map <Leader>a ggVG
 nnoremap <Leader>o :e #<CR>
+nmap <f9> :make -B<CR><CR><CR>
+nnoremap <silent> <Tab> @=(foldlevel('.')?'za':"\<Tab>")<CR>
+
 " ====[ Window movements ]======================================================
 nmap <C-h> <C-w>h
 nmap <C-j> <C-w>j
