@@ -29,4 +29,5 @@ alias zshconfig="vim ~/.zshrc"
 alias vimconfig="vim ~/.vim/vimrc"
 alias reload="source ~/.zshrc"
 
+DISABLE_AUTO_TITLE=true
 
