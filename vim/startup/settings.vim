@@ -45,7 +45,7 @@ set splitbelow
 set splitright
 set cursorline " highlight the current line
 set visualbell
-set guifont=Monaco:h12 " Change font
+set guifont=Monaco\ 9" Change font
 set wildmenu
 set lazyredraw
 set showmatch
