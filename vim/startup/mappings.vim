@@ -21,6 +21,7 @@ vnoremap <right> <Nop>
 vnoremap <up> <Nop>
 nnoremap ö :
 vnoremap ö :
+nnoremap Q <nop>
 
 " ====[ Search and Replace ]====================================================
 nnoremap . ;
