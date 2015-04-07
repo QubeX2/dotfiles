@@ -8,7 +8,7 @@ ZSH_THEME="ys"
 plugins=(git colored-man colorize github tmux)
 
 # User configuration
-ZSH_TMUX_AUTOSTART=true
+ZSH_TMUX_AUTOSTART=false
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export EDITOR="vim"
