@@ -27,14 +27,17 @@ nnoremap Q <nop>
 nnoremap . ;
 nnoremap ; :/
 noremap <Leader>h :nohl<CR>
-nmap <Leader>fs :Ack -i -Q -H ""<Left>
-nmap <Leader>fk :Ack -i -Q -H "<cword>"<CR>
+nmap <Leader>fs :Ack -i -Q -H --ignore-dir=install ""<Left>
+nmap <Leader>fk :Ack -i -Q -H --ignore-dir=install "<cword>"<CR>
 map <Leader>ws m':%s/\s\+$//<CR>''
 nmap <Leader>sf m'gg=G''zz
 
 " ====[ Indentation ]===========================================================
 vnoremap < <gv
 vnoremap > >gv
+nnoremap < <gv
+nnoremap > >>
+nnoremap < <<
 
 " ====[ Load bundles ]==========================================================
 map <silent> <Leader>n :NERDTreeToggle<CR>
@@ -54,6 +57,7 @@ map <Leader>a ggVG
 nnoremap <Leader>o :e #<CR>
 nmap <f9> :make -B<CR><CR><CR>
 nnoremap <silent> <Tab> @=(foldlevel('.')?'za':"\<Tab>")<CR>
+nnoremap <Space> i_<Esc>r
 
 " ====[ Window movements ]======================================================
 nmap <C-h> <C-w>h
