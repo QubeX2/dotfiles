@@ -46,7 +46,7 @@
 
 ;; line number
 (global-linum-mode t)
-(setq linum-format "%4d"
+(setq linum-format "%4d\u2502"
       line-number-mode t
       column-number-mode t)
 
