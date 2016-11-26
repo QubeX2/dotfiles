@@ -1,5 +1,8 @@
 vim/bundle/
 emacs.d/bundle/
+<<<<<<< HEAD
+emacs.d/elpa/
+emacs.d/ido.last
+emacs.d/url/
 emacs.d/eshell/
 emacs.d/auto-save-list/
-

@@ -5,6 +5,13 @@
 ;; 
 ;;; DISPLAY ISSUES
 ;;===============================================================================
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
 (if (display-graphic-p) ; if windowed mode
     (progn
       (tool-bar-mode -1)
@@ -108,7 +115,9 @@
 (global-set-key (kbd "C-c <down>") 'shrink-window)
 (global-set-key (kbd "C-c <up>") 'enlarge-window)
 (global-set-key (kbd "<f8>") 'execute-extended-command) ; M-x
-
+; Special for ChromeOS
+(global-set-key (kbd "M-SPC") 'set-mark-command)
+(global-set-key (kbd "C-x w") 'kill-region)
 ;;; ALIASES
 ;;===============================================================================
 (defalias 'list-buffers 'ibuffer)
@@ -154,7 +163,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(linum ((t (:inherit (shadow default) :background "#333333" :foreground "999999"))))
+ '(linum ((t (:inherit (shadow default) :background "#111111" :foreground "#333333"))))
  '(show-paren-match ((t (:background "#8b0000" :foreground "#fa8072")))))
 
 ;;; FUNCTIONS
