@@ -37,6 +37,9 @@ set timeout timeoutlen=1000 ttimeoutlen=100
 set laststatus=2
 set statusline=%f\ %=L:%l/%L\ %c\ (%p%%)
 set guioptions-=T
+set guioptions-=m
+set guioptions-=r
+set guioptions-=L
 set encoding=utf-8
 set autoread
 set clipboard=unnamed
