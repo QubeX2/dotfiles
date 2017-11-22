@@ -18,7 +18,7 @@ export GREP_COLOR="1;32"
 export MANPAGER="less -X" # Don't clear screen after quit man
 export TERM="screen-256color"
 export CLICOLOR=1
-
+export NODE_PATH=/usr/local/lib/node_modules
 # oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
