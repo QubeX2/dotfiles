@@ -33,6 +33,7 @@ alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
 alias reload="source ~/.zshrc"
 alias phpunit="vendor/bin/phpunit"
 alias gfbranch="git branch | grep"
+alias fhist="history | grep"
 
 # source ~/.zshrc.tokens
 export PATH="/usr/local/opt/php@7.2/bin:$PATH"
