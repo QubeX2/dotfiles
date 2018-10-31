@@ -14,6 +14,11 @@ ZSH_TMUX_AUTOSTART=false
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export PATH="/Applications/MAMP/bin/php/php5.6.2/bin:$PATH"
+export PATH="/usr/local/opt/php@7.2/bin:$PATH"
+export PATH="/usr/local/opt/php@7.2/sbin:$PATH"
+export PATH="/Users/mikael/.composer/vendor/bin:$PATH"
+export PATH="/usr/local/Cellar/mysql@5.7/5.7.23/bin:$PATH"
+
 export EDITOR="vim"
 export GREP_OPTIONS="--color=auto"
 export GREP_COLOR="1;32"
@@ -32,11 +37,14 @@ alias f="open -a Finder ./"
 alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
 alias reload="source ~/.zshrc"
 alias phpunit="vendor/bin/phpunit"
-alias gfbranch="git branch | grep"
-alias fhist="history | grep"
-
+alias fh="history | grep"
+alias fp="ps aux | grep"
+alias gfb="git branch | grep"
+alias gcma="git checkout master"
+alias gcmw="git checkout ma_work"
+alias gcmd="git checkout ma_deploy"
+alias gpu="git push -u"
+alias gs="git status"
+alias gcom="git commit -am"
 # source ~/.zshrc.tokens
-export PATH="/usr/local/opt/php@7.2/bin:$PATH"
-export PATH="/usr/local/opt/php@7.2/sbin:$PATH"
-export PATH="/Users/mikael/.composer/vendor/bin:$PATH"
 
