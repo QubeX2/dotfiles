@@ -40,11 +40,8 @@ alias phpunit="vendor/bin/phpunit"
 alias fh="history | grep"
 alias fp="ps aux | grep"
 alias gfb="git branch | grep"
-alias gcma="git checkout master"
-alias gcmw="git checkout ma_work"
-alias gcmd="git checkout ma_deploy"
 alias gpu="git push -u"
 alias gs="git status"
-alias gcom="git commit -am"
+alias gcm="git commit -am"
 # source ~/.zshrc.tokens
 
