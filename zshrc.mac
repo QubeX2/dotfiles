@@ -39,9 +39,10 @@ alias reload="source ~/.zshrc"
 alias phpunit="vendor/bin/phpunit"
 alias fh="history | grep"
 alias fp="ps aux | grep"
+alias fa="alias | grep"
 alias gfb="git branch | grep"
 alias gpu="git push -u"
 alias gs="git status"
-alias gcm="git commit -am"
+alias csf="cd ~/Sites/fwork5"
 # source ~/.zshrc.tokens
 
