@@ -28,6 +28,15 @@ alias vi="vim"
 alias zshconfig="vim ~/.zshrc"
 alias vimconfig="vim ~/.vim/vimrc"
 alias reload="source ~/.zshrc"
-
+alias f="open -a Finder ./"
+alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
+alias phpunit="vendor/bin/phpunit"
+alias fh="history | grep"
+alias fp="ps aux | grep"
+alias fa="alias | grep"
+alias ff="grep -r"
+alias gfb="git branch | grep"
+alias gpu="git push -u"
+alias gs="git status"
 DISABLE_AUTO_TITLE=true
 
