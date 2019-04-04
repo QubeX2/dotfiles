@@ -7,7 +7,7 @@ ZSH_THEME="agnoster"
 
 
 # Plugins
-plugins=(git colored-man colorize github brew)
+plugins=(git colorize github brew)
 
 # User configuration
 ZSH_TMUX_AUTOSTART=false
