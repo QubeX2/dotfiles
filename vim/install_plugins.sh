@@ -12,5 +12,7 @@ if [ ! -d bundle ]; then
     git clone git://github.com/klen/python-mode.git bundle/python-mode
     git clone https://github.com/pangloss/vim-javascript.git bundle/vim-javascript
     git clone https://github.com/leafgarland/typescript-vim.git bundle/typescript-vim
+    git clone https://github.com/posva/vim-vue.git
+    git clone git://github.com/jwalton512/vim-blade.git
 fi
 
