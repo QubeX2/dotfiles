@@ -14,5 +14,6 @@ if [ ! -d bundle ]; then
     git clone https://github.com/leafgarland/typescript-vim.git bundle/typescript-vim
     git clone https://github.com/posva/vim-vue.git
     git clone git://github.com/jwalton512/vim-blade.git
+    git clone https://github.com/mattn/emmet-vim
 fi
 
