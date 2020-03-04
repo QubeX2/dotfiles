@@ -22,3 +22,4 @@ source ~/.vim/startup/autocmd.vim
 source ~/.vim/startup/mappings.vim
 source ~/.vim/startup/functions.vim
 
+let g:asmsyntax = 'nasm'

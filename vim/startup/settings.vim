@@ -32,7 +32,7 @@ set number
 set relativenumber
 "exec "set listchars=tab:\u203a\u2014,trail:\uB7,nbsp:~,eol:\uB6"
 exec "set listchars=tab:\u203a\u2014,trail:\uB7,nbsp:~"
-set list
+" set list
 set timeout timeoutlen=1000 ttimeoutlen=100
 set laststatus=2
 set statusline=%f\ %=L:%l/%L\ %c\ (%p%%)
