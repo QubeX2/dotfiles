@@ -1,7 +1,7 @@
 #!/bin/sh
-
+n 9.11.2
 if [ "$1" == "start" ]; then
-    if [ -f /tmp/kc-yearn.pid ]; then
+    if [ -f /tmp/kc-yarn.pid ]; then
         echo "Already started..."
     else
         cd ~/Sites/kundcenter

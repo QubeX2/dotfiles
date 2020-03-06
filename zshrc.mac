@@ -13,11 +13,10 @@ plugins=(git colorize github brew)
 ZSH_TMUX_AUTOSTART=false
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-export PATH="/Applications/MAMP/bin/php/php5.6.2/bin:$PATH"
 export PATH="/usr/local/opt/php@7.2/bin:$PATH"
 export PATH="/usr/local/opt/php@7.2/sbin:$PATH"
 export PATH="/Users/mikael/.composer/vendor/bin:$PATH"
-export PATH="/usr/local/Cellar/mysql@5.7/5.7.26/bin:$PATH"
+export PATH="/usr/local/Cellar/mysql@5.7/5.7.29/bin:$PATH"
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
@@ -49,6 +48,7 @@ alias gpu="git push -u"
 alias gs="git status"
 alias csf="cd ~/Sites/fwork5"
 alias csk="cd ~/Sites/kundcenter"
+alias csg="cd ~/Sites/golf-service-system"
 alias csd="cd ~/SitesDev/fwork4"
 # source ~/.zshrc.tokens
 

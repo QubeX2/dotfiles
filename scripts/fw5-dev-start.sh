@@ -1,5 +1,5 @@
 #!/bin/sh
-
+n 9.11.2
 if [ "$1" == "start" ]; then
     if [ -f /tmp/fw5-les.pid ]; then
         echo "Already started..."
@@ -10,6 +10,9 @@ if [ "$1" == "start" ]; then
 
         php artisan fwork:telavox &
         echo $! > /tmp/fw5-telavox.pid
+
+        # php artisan horizon &
+        # echo $! > /tmp/fw5-horizon.pid
 
         yarn run watch &
         echo $! > /tmp/fw5-yarn.pid
@@ -24,6 +27,10 @@ elif [ "$1" == "stop" ]; then
         kill `cat /tmp/fw5-telavox.pid`
         rm /tmp/fw5-telavox.pid
     fi
+    # if [ -f /tmp/fw5-horizon.pid ]; then
+        # kill `cat /tmp/fw5-horizon.pid`
+        # rm /tmp/fw5-horizon.pid
+    # fi
     if [ -f /tmp/fw5-yarn.pid ]; then
         kill `cat /tmp/fw5-yarn.pid`
         rm /tmp/fw5-yarn.pid
