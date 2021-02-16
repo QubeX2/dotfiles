@@ -48,7 +48,5 @@ alias gpu="git push -u"
 alias gs="git status"
 alias csf="cd ~/Sites/fwork5"
 alias csk="cd ~/Sites/kundcenter"
-alias csg="cd ~/Sites/golf-service-system"
-alias csd="cd ~/SitesDev/fwork4"
 # source ~/.zshrc.tokens
 
