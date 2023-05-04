@@ -12,8 +12,6 @@ plugins=(git colorize github brew)
 ZSH_TMUX_AUTOSTART=false
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-export PATH="/usr/local/opt/php@7.4/bin:$PATH"
-export PATH="/usr/local/opt/php@7.4/sbin:$PATH"
 export PATH="/Users/mikael/.composer/vendor/bin:$PATH"
 export PATH="/usr/local/opt/mysql/bin:$PATH"
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
@@ -46,5 +44,6 @@ alias ff="grep -r"
 alias gfb="git branch | grep"
 alias gpu="git push -u"
 alias gs="git status"
+alias tnk="while true; do php artisan tinker; done"
 # source ~/.zshrc.tokens
 
