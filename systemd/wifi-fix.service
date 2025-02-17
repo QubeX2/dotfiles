@@ -1,0 +1,9 @@
+[Unit]
+Description=Wifi Fix
+
+[Service]
+Type=simple
+ExecStart=/opt/wifi-fix.sh
+
+[Install]
+WantedBy=network.target
