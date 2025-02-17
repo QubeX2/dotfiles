@@ -1,9 +1,11 @@
 [Unit]
 Description=Wifi Fix
+Requires=graphical.target
+After=graphical.target
 
 [Service]
-Type=simple
+Type=oneshot
 ExecStart=/opt/wifi-fix.sh
 
 [Install]
-WantedBy=network.target
+WantedBy=graphical.target
